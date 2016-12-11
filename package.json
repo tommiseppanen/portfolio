@@ -6,7 +6,7 @@
   "scripts": {
     "build": "webpack -p",
     "start": "webpack-dev-server --hot --progress --colors --inline",
-	"deploy": "npm run build && gh-pages -d build"
+    "deploy": "npm run build && gh-pages -d build"
   },
   "author": "Tommi Seppänen",
   "license": "MIT",
